@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const images = [
     "/homeImage.jpeg",
-    "http://localhost:5173/donation7.jpg",
+    "/donation7.jpg",
     "https://img.freepik.com/premium-photo/welcome-team-shot-two-young-restaurant-owners-standing-outside-together-shaking-hands_590464-53704.jpg",
     "/Share & Care LOGO.png",
     "https://media.istockphoto.com/id/619643870/photo/hungry-african-children-asking-for-food-africa.jpg?s=1024x1024&w=is&k=20&c=9-fxG0x5A1-tMM8fYzcqCk6-ZTuLKlndFAIo4S09BnQ=",

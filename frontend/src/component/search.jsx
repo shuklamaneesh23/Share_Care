@@ -14,7 +14,7 @@ function Search() {
             </div> */}
             <div className="flex flex-wrap md:mt-16 mt-4 ml-4">
                 <div className="form-control">
-                    <input type="text" placeholder="Search" className="input input-bordered w-96 md:w-auto" />
+                    <input type="text" placeholder="Search" className="input input-bordered w-88 md:w-auto" />
                 </div>
                 <div>
                     <button className="btn btn-ghost btn-circle">
