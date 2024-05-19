@@ -5,7 +5,7 @@ function Volunteers(){
     return(
         <div className="flex flex-col mt-12">
             <div className="border-y-2 border-slate-200 p-6 pl-0">
-                <p className="text-3xl font-semibold">Volunteers and Rescuers</p>
+                <p className="text-3xl font-semibold ml-4">Volunteers and Rescuers</p>
             </div>
             <div className="flex flex-wrap justify-around mt-12 gap-9">
                 <VolunteerCard

@@ -2,6 +2,7 @@ import React, { useState,useContext } from "react";
 import axios from "axios";
 import UserContext from "../context/userContext";
 import { NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Login() {
     const [formData, setFormData] = useState({
@@ -19,12 +20,16 @@ function Login() {
         });
     }
 
-    const handleSubmit = (event) => {
+    const navigateToProfile=useNavigate();
+
+    const handleSubmit =(event) => {
         event.preventDefault();
         maneesh(); 
     }
 
-
+    const navigate=async ()=>{
+        navigateToProfile('/profile');
+    }
     
    const  { setUser } = useContext(UserContext);
 
@@ -36,6 +41,7 @@ function Login() {
             console.log("Hello")
             setUser(res.data)
             console.log(res.data)
+            navigate();
         })
         .catch(err => {
             console.log(err.response);
@@ -44,7 +50,7 @@ function Login() {
     }
 
     return (
-        <div className="flex justify-center items-center h-[70vh]">
+        <div className="flex justify-center items-center h-[70vh] mb-28">
             <div className="h-4/5 w-full flex flex-col gap-9">
                 <div className="flex justify-center items-center">
                     <h1 className="text-4xl footer-title text-slate-800">Login</h1>

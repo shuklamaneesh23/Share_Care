@@ -1,19 +1,20 @@
 import React from "react";
 import Count from "./counts";
 import { NavLink } from "react-router-dom";
+import Carousel from "./carousel";
 
 function Search() {
     return (
         <div className="flex flex-col bg-white flex-wrap ">
             <div className="w-full h-[50] justify-center flex">
-                <img className="w-[97vw] h-[60vh] rounded-2xl" src="/homeImage.jpeg" alt="" />
+                <Carousel/>
             </div>
             {/* <div className="absolute z-10 top-[50%] left-[30%]">
             <Count/>
             </div> */}
-            <div className="flex flex-wrap mt-12">
+            <div className="flex flex-wrap md:mt-16 mt-4 ml-4">
                 <div className="form-control">
-                    <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
+                    <input type="text" placeholder="Search" className="input input-bordered w-96 md:w-auto" />
                 </div>
                 <div>
                     <button className="btn btn-ghost btn-circle">
@@ -22,7 +23,7 @@ function Search() {
                 </div>
 
             </div>
-            <div className="flex flex-wrap gap-3 mt-4 mb-8">
+            <div className="flex flex-wrap gap-3 mt-4 mb-8 ml-4">
                 <div className="badge badge-ghost hover:cursor-pointer">
                     <NavLink
                         to="../priorityArea">Priority Areas
