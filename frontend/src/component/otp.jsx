@@ -26,7 +26,7 @@ function Otp() {
             setError('');
             
         } catch (err) {
-            setError('Error verifying account. Please try again.');
+            setError('Error verifying account. Please try again with different email id.');
             setMessage('');
             console.error('Error submitting the form:', err);
         }

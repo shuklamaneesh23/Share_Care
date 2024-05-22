@@ -11,6 +11,7 @@ function Login() {
     });
 
     const [errorMessage, setErrorMessage] = useState()
+    const [message, setMessage] = useState('');
 
     const handleInputChange = (event) => {
         const { name, value } = event.target;
@@ -40,12 +41,18 @@ function Login() {
         .then(res => {
             console.log("Hello")
             setUser(res.data)
-            console.log(res.data)
-            navigate();
+            console.log("Maneesh",res.data)
+            if(res.data!="Password is incorrect"){
+                setMessage('');
+                navigate();
+
+            }else{
+                setMessage('Incorrect Password. Please try again.')
+            }
         })
         .catch(err => {
             console.log(err.response);
-            setErrorMessage("Incorrect Password")
+            setErrorMessage("Incorrect username or email id.Kindly check again.")
         })
     }
 
@@ -72,10 +79,13 @@ function Login() {
                             <input type="password" name="password" placeholder="Type here" className="input input-bordered w-full max-w-xs" onChange={handleInputChange} />
                         </label>
                     </div>
-                    {errorMessage && <p className="text-red-600">{errorMessage}</p>}
+                    
                     <div className="flex justify-center mt-8">
                         <button type="submit" className="btn btn-primary">Login</button>
                     </div>
+                    {message && <p className="text-red-600 text-2xl font-mono flex flex-col justify-center items-center mt-8">{message}</p>}
+
+                    {errorMessage && <p className="text-red-600 text-2xl font-mono flex flex-col justify-center items-center mt-8">{errorMessage}</p>}
                 </form>
                 <div className="flex justify-center flex-wrap items-center gap-10">
                     <div className="">
