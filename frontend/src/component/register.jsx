@@ -40,9 +40,9 @@ function Login() {
         await axios.post('http://localhost:8080/login', formData)
         .then(res => {
             console.log("Hello")
-            setUser(res.data)
             console.log("Maneesh",res.data)
             if(res.data!="Password is incorrect"){
+                setUser(res.data)
                 setMessage('');
                 navigate();
 

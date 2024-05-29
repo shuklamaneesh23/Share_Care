@@ -9,6 +9,7 @@ export default function Card({ data }) {
 
     const handleAcceptClick = () => {
         setIsDialogOpen(true);
+        
     };
 
     const handleConfirm = () => {

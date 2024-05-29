@@ -22,11 +22,12 @@ function Otp() {
                     otp: otp
                 }
             });
-            setMessage('Account has been created successfully.Please login to continue.');
+            setMessage(response.data);
             setError('');
+            console.log(response);
             
         } catch (err) {
-            setError('Error verifying account. Please try again with different email id.');
+            setError('Account already exist with this email. Please try again with different email id.');
             setMessage('');
             console.error('Error submitting the form:', err);
         }
@@ -69,8 +70,8 @@ function Otp() {
                     <div className="flex justify-center">
                         <button type="submit" className="btn btn-primary">Submit</button>
                     </div>
-                    {error && <p className="text-red-500">{error}</p>}
-                    {message && <p className="text-green-500">{message}</p>}
+                    {error && <p className="text-red-500 text-2xl">{error}</p>}
+                    {message && <p className="text-green-500 text-2xl">{message}</p>}
                 </form>
                 <div className="flex justify-center flex-wrap items-center gap-4">
                     <div>

@@ -1,0 +1,22 @@
+# Ignore node_modules in frontend
+frontend/node_modules/
+
+
+# Ignore build directories
+
+frontend/dist
+backend/wda-master/target
+
+# Ignore environment configuration files
+frontend/.env
+backend/wda-master/src/main/resources/application-dev.properties
+backend/wda-master/src/main/resources/application-prod.properties
+backend/wda-master/src/main/resources/application.properties
+backend/wda-master/src/main/resources/application.properties
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log

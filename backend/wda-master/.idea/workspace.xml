@@ -4,7 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdd3ecb0-bf74-4e97-8c3f-b55d388d2ff4" name="Changes" comment="" />
+    <list default="true" id="fdd3ecb0-bf74-4e97-8c3f-b55d388d2ff4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/registerapp/controller/DonateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/registerapp/controller/DonateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/registerapp/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/registerapp/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/registerapp/Model/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/registerapp/Model/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/registerapp/Model/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/registerapp/Model/Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/registerapp/RegisterAppApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/registerapp/RegisterAppApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/registerapp/config/ChatServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/registerapp/config/ChatServerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/registerapp/config/EmailConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/registerapp/config/EmailConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/registerapp/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/registerapp/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/registerapp/controller/ChatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/registerapp/controller/ChatController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/registerapp/controller/DonateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/registerapp/controller/DonateController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/registerapp/dto/DonateDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/registerapp/dto/DonateDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/registerapp/dto/LoginDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/registerapp/dto/LoginDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/registerapp/dto/RegisterDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/registerapp/dto/RegisterDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/registerapp/entity/Donate$DonateBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/registerapp/entity/Donate$DonateBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/registerapp/entity/Donate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/registerapp/entity/Donate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/registerapp/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/registerapp/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/registerapp/repository/DonateRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/registerapp/repository/DonateRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/registerapp/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/registerapp/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/registerapp/service/DonateService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/registerapp/service/DonateService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/registerapp/service/DonateServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/registerapp/service/DonateServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/registerapp/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/registerapp/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/registerapp/util/EmailUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/registerapp/util/EmailUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/registerapp/util/OtpUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/registerapp/util/OtpUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/_metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/axios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/chunk-XBHG3ID7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/chunk-XBHG3ID7.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/chunk-YSDLPTTY.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/chunk-YSDLPTTY.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/chunk-ZS7NZCD4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/chunk-ZS7NZCD4.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/react-calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/react-calendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/react-calendar.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/react-calendar.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/react-dom_client.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/react-dom_client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/react-icons_fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/react-icons_fa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/react-router-dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/react-router-dom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/react.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/react.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/react_jsx-dev-runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/react_jsx-dev-runtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/react_jsx-runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/react_jsx-runtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/react_jsx-runtime.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/node_modules/.vite/deps/react_jsx-runtime.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/src/component/contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/src/component/contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/src/component/donateCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/src/component/donateCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/src/component/otp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/src/component/otp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/src/component/register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/src/component/register.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../frontend/src/component/signUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/src/component/signUp.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,16 +90,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.RegisterAppApplication.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/maneeshshukla/Desktop/wda/ShareAndCareWDA/backend/wda-master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.RegisterAppApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/maneeshshukla/Desktop/Web_Project/backend/wda-master&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="RegisterAppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.registerapp.RegisterAppApplication" />

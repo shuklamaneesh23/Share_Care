@@ -103,7 +103,7 @@ public class UserService {
   
 //  
 //  public String setPassword(String email,String newPassword ) {
-//	  User user = userRepository.findByEmail(email)
+//	  User = userRepository.findByEmail(email)
 //		        .orElseThrow(
 //		            () -> new RuntimeException("User not found with this email: " + email));
 //	  user.setPassword(newPassword);

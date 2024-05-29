@@ -82,7 +82,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    Otamoz, GDSC, IIIT Lucknow
+                                    Share And Care,IIIT Lucknow, C.G City Ahmamau
                                 </div>
                             </div>
                             <div className="flex items-center mt-4 text-gray-600">
@@ -124,7 +124,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    lit2023040@iiitl.ac.in
+                                    maneeshukla23@gmail.com
                                 </div>
                             </div>
                         </div>

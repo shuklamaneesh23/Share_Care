@@ -57,7 +57,7 @@ function SignUp() {
 
     const maneesh = async () => {
         await axios
-            .post("http://share-and-care-app.eu-north-1.elasticbeanstalk.com/register", formData)
+            .post("http://localhost:8080/register", formData)
             .then((res) => {
                 setMail(formData.email);
                 setIsLoading(false); // Set loading to false after success
